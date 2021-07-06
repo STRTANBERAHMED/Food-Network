@@ -8,12 +8,18 @@ h1{
 .orange-color{
   color: orange;  
 }
+.flexible-container{
+    display: flex;
+}
 .half-width{
     width: 50%;
     padding: 10%;
 }
 .half-width img{
     width: 120%;
+}
+.person-pic{
+    width: 20%;
 }
 .link-button{
     text-decoration: none;
@@ -23,6 +29,7 @@ h1{
     font-weight: 700;
     border-radius: 100px;
 }
-.flexible-container{
-    display: flex;
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
 }
